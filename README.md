@@ -3,6 +3,7 @@
 
 - [X] makt it deploy (vercel)
 - [X] Scaffold basic ui with mock data
+- [X] Tidy up build process
 - [ ] Database
 - [ ] Attach DB to UI
 - [ ] Add Auth (w/ clerk)

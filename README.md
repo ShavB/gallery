@@ -1,8 +1,8 @@
 
 ## TODO
 
-- [ ] makt it deploy (vercel)
-- [ ] Scaffold basic ui with mock data
+- [X] makt it deploy (vercel)
+- [X] Scaffold basic ui with mock data
 - [ ] Database
 - [ ] Attach DB to UI
 - [ ] Add Auth (w/ clerk)

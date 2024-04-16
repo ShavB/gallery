@@ -1,7 +1,7 @@
 import { SignedIn, SignedOut } from "@clerk/nextjs";
-import { desc } from "drizzle-orm";
 import { db } from "~/server/db";
 export const dynamic = "force-dynamic";
+import "@uploadthing/react/styles.css";
 
 export default async function HomePage() {
   async function Images() {
@@ -9,7 +9,7 @@ export default async function HomePage() {
       orderBy: (model, { desc }) => desc(model.id),
     });
     return (
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-4 m-4">
         {images.map((image) => (
           <div key={image.id} className="flex w-48 flex-col">
             <img src={image.url} />

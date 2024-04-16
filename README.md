@@ -9,7 +9,7 @@
 - [X] Add Auth (w/ clerk)
 - [X] Add image upload
 - [X] Use Next Image
-- [ ] Error management (Sentry)
+- [X] Error management (Sentry)
 - [ ] Routing/image page (parallel route)
 - [ ] Delete button (Server Actions)
 - [ ] Analytics (posthog)

@@ -8,7 +8,7 @@
 - [X] Attach DB to UI
 - [X] Add Auth (w/ clerk)
 - [X] Add image upload
-- [ ] Use Next Image
+- [X] Use Next Image
 - [ ] Error management (Sentry)
 - [ ] Routing/image page (parallel route)
 - [ ] Delete button (Server Actions)
